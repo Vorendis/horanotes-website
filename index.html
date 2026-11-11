@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Hora Notes</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Hora Notes is a Vedic astrology practice in the Parashari tradition. One-to-one Jyotish consultations open on 1 September 2027.">
+<meta name="theme-color" content="#FBF0E6">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Hora Notes, Jyotish">
+<meta property="og:description" content="Vedic astrology consultations in the Parashari tradition, and short notes on Jyotish.">
+<meta property="og:image" content="assets/og-image.jpg">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..700;1,6..96,400..700&family=Jost:wght@300..600&family=Tiro+Devanagari+Sanskrit&display=swap">
+<link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="masthead">
+  <div class="wrap masthead__in">
+    <a class="brand" href="#top" aria-label="Hora Notes, back to top">
+      <img class="brand__mark" src="assets/emblem-160.webp" width="160" height="143" alt="">
+      <img class="brand__word" src="assets/wordmark-520.webp" width="520" height="136" alt="Hora Notes">
+    </a>
+    <nav class="nav" aria-label="Sections">
+      <a href="#consultation">Consultation</a>
+      <a href="#notes">The notes</a>
+      <a href="#questions">Questions</a>
+    </nav>
+    <a class="btn btn--quiet" href="#book" data-cta>Get notified</a>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- Day: hero with the live hora dial -->
+  <section class="hero" id="top">
+    <div class="wrap hero__grid">
+      <div class="hero__copy">
+        <h1>A careful reading of your birth chart</h1>
+        <p class="lede">Hora Notes is a Vedic astrology practice in the Parashari tradition. One-to-one consultations open on <span data-launch>1 September 2027</span>. Until then, the notes are on Instagram.</p>
+        <div class="actions">
+          <a class="btn" href="#book" data-cta>Get notified</a>
+          <a class="textlink" data-ig href="https://www.instagram.com/horanotes/" target="_blank" rel="noopener">Watch the notes on Instagram</a>
+        </div>
+      </div>
+
+      <figure class="dial" aria-labelledby="dial-cap">
+        <div class="dial__face">
+          <svg id="hora-svg" viewBox="0 0 400 400" role="img" aria-label="Today's 24 horas, from sunrise at the top, with the current hora highlighted"></svg>
+          <div class="dial__now" aria-live="polite">
+            <span class="dial__kicker">The hora now</span>
+            <span class="dial__deva" id="hora-deva" lang="sa">होरा</span>
+            <span class="dial__name" id="hora-name">Working out the hour</span>
+            <span class="dial__until" id="hora-until"></span>
+          </div>
+        </div>
+        <figcaption id="dial-cap" class="dial__cap">
+          <p id="hora-use">Each hour of the Vedic day is ruled by one of the seven grahas.</p>
+          <p class="dial__meta"><span id="hora-next"></span> <span id="hora-sun"></span></p>
+          <button type="button" class="textbtn" id="hora-locate">Use my location</button>
+        </figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- Day: the name -->
+  <section class="etym" id="hora">
+    <div class="wrap etym__grid">
+      <p class="etym__word" lang="sa" aria-hidden="true"><span class="etym__drop">अ</span>होरा<span class="etym__drop">त्र</span></p>
+      <div class="etym__text">
+        <h2>Why the name Hora</h2>
+        <p>Jyotish has three branches. Ganita does the calculation, Samhita reads events in the wider world, and Hora reads the life of one person from their birth chart. Hora is the work of this practice.</p>
+        <p>In the Brihat Jataka, Varahamihira records that the word comes from <i lang="sa-Latn">ahorātra</i>, a day and a night, with its first and last syllables dropped. A hora is also an hour of that day, ruled in turn by one of the seven grahas, as the dial above shows.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Day, deepening: the consultation -->
+  <section class="consult" id="consultation">
+    <div class="wrap">
+      <div class="consult__grid">
+        <div class="consult__main">
+          <h2>One sitting, all your questions</h2>
+          <p class="consult__intro"><span data-minutes>45</span> minutes with your chart open. Ask about work, marriage, health, money or timing, and leave with remedies you can follow.</p>
+          <ul class="includes">
+            <li>Answers to every question you bring</li>
+            <li>Remedies suited to your chart</li>
+            <li>A recording of the session</li>
+            <li>Written notes from the session, sent afterwards</li>
+          </ul>
+          <p class="fine">Questions are taken during the session, so bring them all with you. The recording and notes are yours to return to.</p>
+        </div>
+
+        <aside class="fee" aria-label="Consultation fee">
+          <p class="fee__amount" data-price>₹1,999</p>
+          <p class="fee__per">for a <span data-minutes>45</span>-minute consultation</p>
+          <p class="fee__note"><span data-price-note>Launch fee</span>. Bookings open on <span data-launch>1 September 2027</span>.</p>
+          <a class="btn" href="#book" data-cta>Get notified</a>
+        </aside>
+      </div>
+
+      <h3 class="steps__title">How a consultation works</h3>
+      <ol class="steps">
+        <li>
+          <h4>Choose a time</h4>
+          <p>Pick a slot on the booking calendar and pay the fee to confirm it.</p>
+        </li>
+        <li>
+          <h4>Send your birth details</h4>
+          <p>Date, exact time and place of birth. A few minutes either way can change the finer divisional charts.</p>
+        </li>
+        <li>
+          <h4>Meet for the reading</h4>
+          <p><span data-minutes>45</span> minutes on a video call, with time for every question.</p>
+        </li>
+        <li>
+          <h4>Keep the notes</h4>
+          <p>The recording and your written session notes reach you after the call.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Day: the notes, laid out like a notebook's contents page -->
+  <section class="notes" id="notes">
+    <div class="wrap">
+      <div class="notes__head">
+        <h2>The notes</h2>
+        <p>Short reels on <a data-ig href="https://www.instagram.com/horanotes/" target="_blank" rel="noopener" data-ig-handle>@horanotes</a> that teach Jyotish in the order a student meets it, each series building on the one before.</p>
+      </div>
+      <ol class="contents">
+        <li><span class="c__deva" lang="sa">ग्रह</span><span class="c__name">Grahas</span><span class="c__lead" aria-hidden="true"></span><span class="c__desc">the nine grahas, one by one</span></li>
+        <li><span class="c__deva" lang="sa">राशि</span><span class="c__name">Rashis</span><span class="c__lead" aria-hidden="true"></span><span class="c__desc">the twelve signs and their natures</span></li>
+        <li><span class="c__deva" lang="sa">भाव</span><span class="c__name">Bhavas</span><span class="c__lead" aria-hidden="true"></span><span class="c__desc">the twelve houses of the chart</span></li>
+        <li><span class="c__deva" lang="sa">भावेश</span><span class="c__name">House lords</span><span class="c__lead" aria-hidden="true"></span><span class="c__desc">from the lagnesh to the twelfth lord</span></li>
+        <li><span class="c__deva" lang="sa">स्थिति</span><span class="c__name">Placements</span><span class="c__lead" aria-hidden="true"></span><span class="c__desc">every house lord in every house, 144 in all</span></li>
+        <li><span class="c__deva" lang="sa">नक्षत्र</span><span class="c__name">Nakshatras</span><span class="c__lead" aria-hidden="true"></span><span class="c__desc">the twenty-seven lunar mansions</span></li>
+        <li><span class="c__deva" lang="sa">योग</span><span class="c__name">Yogas</span><span class="c__lead" aria-hidden="true"></span><span class="c__desc">the classic combinations</span></li>
+        <li><span class="c__deva" lang="sa">कारक</span><span class="c__name">Karakas</span><span class="c__lead" aria-hidden="true"></span><span class="c__desc">Atmakaraka, Darakaraka and the rest</span></li>
+      </ol>
+      <a class="btn btn--line" data-ig href="https://www.instagram.com/horanotes/" target="_blank" rel="noopener"><span>Follow <span data-ig-handle>@horanotes</span></span></a>
+    </div>
+  </section>
+
+  <div class="dusk" aria-hidden="true"></div>
+
+  <!-- Night: booking -->
+  <section class="book" id="book">
+    <div class="wrap">
+      <div id="book-soon" class="book__soon">
+        <svg class="book__star" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0L14.6 9.4 24 12 14.6 14.6 12 24 9.4 14.6 0 12 9.4 9.4Z"/></svg>
+        <h2>Bookings open on <span data-launch>1 September 2027</span></h2>
+        <p class="countdown"><span data-days class="countdown__n">294</span> <span data-days-word>days to go</span></p>
+        <p data-soon-copy>The booking link goes up on Instagram first. Follow along and you'll hear the day the calendar opens.</p>
+        <a class="btn btn--gold" id="book-action" data-ig href="https://www.instagram.com/horanotes/" target="_blank" rel="noopener">Follow on Instagram</a>
+      </div>
+
+      <div id="book-open" class="book__open" hidden>
+        <h2>Book a consultation</h2>
+        <p id="pay-note">Choose a time below. The fee is paid when you confirm your booking.</p>
+        <a class="btn btn--gold" id="pay-link" href="#" target="_blank" rel="noopener" hidden>Pay the consultation fee</a>
+        <div class="booking-frame"></div>
+        <p class="fine" id="book-backup">Calendar not loading? <a href="#" target="_blank" rel="noopener">Open the booking page in a new tab</a>.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Night: questions -->
+  <section class="faq" id="questions">
+    <div class="wrap faq__grid">
+      <h2>Questions</h2>
+      <div class="faq__list">
+        <details>
+          <summary>Which system of astrology do you follow?</summary>
+          <p>Vedic astrology, or Jyotish, in the Parashari tradition, with the Brihat Parashara Hora Shastra as the core text.</p>
+        </details>
+        <details>
+          <summary>What do I need before the session?</summary>
+          <p>Your date of birth, the exact time of birth and the place you were born. A birth certificate or hospital record is the best source for the time. If you only know it roughly, mention that when you book.</p>
+        </details>
+        <details>
+          <summary>Can I ask more questions after the session?</summary>
+          <p>Questions are answered during the consultation itself, so bring all of them. You keep the recording and the written notes, and you can return to them whenever you like.</p>
+        </details>
+        <details>
+          <summary>Which languages can the consultation be in?</summary>
+          <p>Hindi or English. Choose the one you are most comfortable in when you book.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot__grid">
+    <a class="foot__brand" href="#top" aria-label="Hora Notes, back to top">
+      <img src="assets/emblem-night-240.webp" width="240" height="214" alt="">
+      <img src="assets/wordmark-night-520.webp" width="520" height="136" alt="Hora Notes">
+    </a>
+    <ul class="foot__links" id="contact-list">
+      <li><a data-ig href="https://www.instagram.com/horanotes/" target="_blank" rel="noopener">Instagram</a></li>
+    </ul>
+    <p class="foot__fine">Readings are offered as guidance and are not a substitute for medical, legal or financial advice.<br>© <span data-year>2026</span> Hora Notes</p>
+  </div>
+</footer>
+
+<script src="js/config.js"></script>
+<script src="js/hora.js"></script>
+<script src="js/site.js"></script>
+</body>
+</html>
