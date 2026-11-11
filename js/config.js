@@ -45,6 +45,9 @@ window.HORA_CONFIG = {
 
   instagram: "horanotes",
 
+  // YouTube channel link for the footer icon. Leave empty to hide the icon.
+  youtube: "https://www.youtube.com/channel/UCp7vSeMEZR4KN85V-0vIQGw",
+
   // Optional contact details shown in the footer. Leave empty to hide.
   contact: {
     email: "",

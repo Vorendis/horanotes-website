@@ -10,6 +10,9 @@
   $$("[data-ig]").forEach(function (a) { a.href = ig; });
   setText("[data-ig-handle]", "@" + (C.instagram || "horanotes"));
 
+  if (C.youtube) $$("[data-yt]").forEach(function (a) { a.href = C.youtube; });
+  else $$("[data-yt-item]").forEach(function (li) { li.hidden = true; });
+
   /* consultation details */
   var cons = C.consultation || {};
   if (cons.priceINR) {
