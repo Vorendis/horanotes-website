@@ -226,6 +226,7 @@ p { margin: 0; }
   font-variant-numeric: lining-nums;
 }
 .fee__per { font-size: var(--t-base); }
+.fee__intl { font-size: var(--t-base); color: var(--gold-ink); font-variant-numeric: lining-nums; }
 .fee__note { font-size: var(--t-sm); color: var(--plum-soft); margin-bottom: 14px; }
 
 .steps__title {

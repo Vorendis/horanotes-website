@@ -20,6 +20,8 @@
   }
   if (cons.minutes) setText("[data-minutes]", String(cons.minutes));
   if (cons.priceNote) setText("[data-price-note]", cons.priceNote);
+  if (cons.priceUSD) setText("[data-price-usd]", "$" + cons.priceUSD.toLocaleString("en-US"));
+  else $$("[data-intl]").forEach(function (n) { n.hidden = true; });
 
   /* launch date */
   var launch = C.launchDate ? new Date(C.launchDate + "T00:00:00+05:30") : null;

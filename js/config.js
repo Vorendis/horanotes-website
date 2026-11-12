@@ -13,6 +13,7 @@ window.HORA_CONFIG = {
   consultation: {
     minutes: 45,
     priceINR: 1999,
+    priceUSD: 50,          // shown as "USD ($50) for clients outside India"; set to 0 to hide
     priceNote: "Launch fee"
   },
 
