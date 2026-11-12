@@ -11,7 +11,7 @@ window.HORA_CONFIG = {
   launchDate: "2027-09-01",
 
   consultation: {
-    minutes: 45,
+    minutes: 30,
     priceINR: 1999,
     priceUSD: 50,          // shown as "USD ($50) for clients outside India"; set to 0 to hide
     priceNote: "Launch fee"
